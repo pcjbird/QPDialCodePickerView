@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <QPDialCodePickerView/QPDialCodePickerView.h>
 
 @interface ViewController ()
 
@@ -29,5 +30,11 @@
 
 
 - (IBAction)OnDialCodeBtnClick:(id)sender {
+    __weak typeof (UIButton*) weakBtn = self.btnDialCode;
+    QPDialCodePickerView *pickerView = [[QPDialCodePickerView alloc] initWithAreaFormat:QPDialCodeAreaNameFormatCurrentLocale complete:^(QPDialCodeObject *item) {
+        [weakBtn setTitle:[NSString stringWithFormat:@"+%@", item.dial_code] forState:UIControlStateNormal];
+    }];
+    pickerView.roundCorner = YES;
+    [pickerView show];
 }
 @end

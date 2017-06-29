@@ -13,6 +13,9 @@
 		895293341F05469800F279EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895293321F05469800F279EF /* Main.storyboard */; };
 		895293361F05469800F279EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895293351F05469800F279EF /* Assets.xcassets */; };
 		895293391F05469800F279EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895293371F05469800F279EF /* LaunchScreen.storyboard */; };
+		895293471F054E1B00F279EF /* QPDialCodePickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 895293451F054E1B00F279EF /* QPDialCodePickerView.bundle */; };
+		895293481F054E1B00F279EF /* QPDialCodePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895293461F054E1B00F279EF /* QPDialCodePickerView.framework */; };
+		8952934B1F054FD500F279EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8952934D1F054FD500F279EF /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,12 @@
 		895293411F054A4D00F279EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		895293421F054A5100F279EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		895293431F054A5100F279EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		895293451F054E1B00F279EF /* QPDialCodePickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QPDialCodePickerView.bundle; path = QPDialCodePickerViewDemo/QPDialCodePickerView.bundle; sourceTree = "<group>"; };
+		895293461F054E1B00F279EF /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QPDialCodePickerView.framework; path = QPDialCodePickerViewDemo/QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8952934C1F054FD500F279EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8952934E1F054FD700F279EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8952934F1F054FD800F279EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		895293501F054FD900F279EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895293481F054E1B00F279EF /* QPDialCodePickerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				895293281F05469800F279EF /* QPDialCodePickerViewDemo */,
+				895293441F054E0800F279EF /* Frameworks */,
 				895293271F05469800F279EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +81,7 @@
 				895293351F05469800F279EF /* Assets.xcassets */,
 				895293371F05469800F279EF /* LaunchScreen.storyboard */,
 				8952933A1F05469800F279EF /* Info.plist */,
+				8952934D1F054FD500F279EF /* InfoPlist.strings */,
 				895293291F05469800F279EF /* Supporting Files */,
 			);
 			path = QPDialCodePickerViewDemo;
@@ -81,6 +93,15 @@
 				8952932A1F05469800F279EF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		895293441F054E0800F279EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				895293451F054E1B00F279EF /* QPDialCodePickerView.bundle */,
+				895293461F054E1B00F279EF /* QPDialCodePickerView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +146,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = 8952931D1F05469800F279EF;
 			productRefGroup = 895293271F05469800F279EF /* Products */;
@@ -141,8 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8952934B1F054FD500F279EF /* InfoPlist.strings in Resources */,
 				895293391F05469800F279EF /* LaunchScreen.storyboard in Resources */,
 				895293361F05469800F279EF /* Assets.xcassets in Resources */,
+				895293471F054E1B00F279EF /* QPDialCodePickerView.bundle in Resources */,
 				895293341F05469800F279EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +206,17 @@
 				895293431F054A5100F279EF /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8952934D1F054FD500F279EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8952934C1F054FD500F279EF /* Base */,
+				8952934E1F054FD700F279EF /* en */,
+				8952934F1F054FD800F279EF /* zh-Hant */,
+				895293501F054FD900F279EF /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,8 +320,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QPDialCodePickerViewDemo",
+				);
 				INFOPLIST_FILE = QPDialCodePickerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QPDialCodePickerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -295,8 +336,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QPDialCodePickerViewDemo",
+				);
 				INFOPLIST_FILE = QPDialCodePickerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QPDialCodePickerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

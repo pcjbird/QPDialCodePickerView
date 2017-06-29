@@ -1,8 +1,7 @@
 ![logo](logo.png)
 
-<div align=center>
+## Demo 
 ![demo](demo.gif)
-</div>
 
 ## Follow us
 

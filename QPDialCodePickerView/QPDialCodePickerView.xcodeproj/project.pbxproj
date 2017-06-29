@@ -523,6 +523,7 @@
 				89C4375F1F04B8C9009A6942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C437671F04BD58009A6942 /* Build configuration list for PBXNativeTarget "QPDialCodePickerViewResource" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +532,7 @@
 				89C437691F04BD58009A6942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C437891F04EBF5009A6942 /* Build configuration list for PBXAggregateTarget "QPDialCodePickerView-Universal" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +541,7 @@
 				89C4378B1F04EBF5009A6942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

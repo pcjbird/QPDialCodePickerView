@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *btnDialCode;
+- (IBAction)OnDialCodeBtnClick:(id)sender;
 @end
 
 @implementation ViewController
@@ -26,4 +28,6 @@
 }
 
 
+- (IBAction)OnDialCodeBtnClick:(id)sender {
+}
 @end

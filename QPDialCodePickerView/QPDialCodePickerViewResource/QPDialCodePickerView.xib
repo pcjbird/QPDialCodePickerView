@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QPDialCodePickerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8hE-by-9CP">
+                    <rect key="frame" x="0.0" y="397" width="375" height="270"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="478-gB-f2n">
+                            <rect key="frame" x="0.0" y="220" width="375" height="50"/>
+                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="ZJ7-tR-Dwq"/>
+                            </constraints>
+                            <state key="normal" title="Confirm"/>
+                            <connections>
+                                <action selector="OnConfirmBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="IpB-f0-3fO"/>
+                            </connections>
+                        </button>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hwS-OY-fn9">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="478-gB-f2n" firstAttribute="leading" secondItem="8hE-by-9CP" secondAttribute="leading" id="Jmz-Ls-gpV"/>
+                        <constraint firstAttribute="height" constant="270" id="KWs-jb-G7L"/>
+                        <constraint firstItem="hwS-OY-fn9" firstAttribute="leading" secondItem="8hE-by-9CP" secondAttribute="leading" id="LeW-C7-uo1"/>
+                        <constraint firstAttribute="trailing" secondItem="hwS-OY-fn9" secondAttribute="trailing" id="MIp-ds-66u"/>
+                        <constraint firstItem="hwS-OY-fn9" firstAttribute="top" secondItem="8hE-by-9CP" secondAttribute="top" id="TWN-P7-KRT"/>
+                        <constraint firstAttribute="trailing" secondItem="478-gB-f2n" secondAttribute="trailing" id="bhh-Tz-WK0"/>
+                        <constraint firstAttribute="bottom" secondItem="478-gB-f2n" secondAttribute="bottom" id="k5e-Mb-Obs"/>
+                        <constraint firstItem="478-gB-f2n" firstAttribute="top" secondItem="hwS-OY-fn9" secondAttribute="bottom" id="sCm-sC-NfQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8hE-by-9CP" secondAttribute="trailing" id="0SV-Aa-5Fb"/>
+                <constraint firstItem="8hE-by-9CP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dMd-fR-rcA"/>
+                <constraint firstAttribute="bottom" secondItem="8hE-by-9CP" secondAttribute="bottom" id="i7s-6T-iWr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <connections>
+                <outlet property="alertView" destination="8hE-by-9CP" id="qGl-MB-04X"/>
+                <outlet property="bottomConstraint" destination="i7s-6T-iWr" id="6So-Cc-Wyt"/>
+                <outlet property="confirmBtn" destination="478-gB-f2n" id="ges-Bz-hA3"/>
+                <outlet property="leadingConstraint" destination="dMd-fR-rcA" id="ilU-w2-DxA"/>
+                <outlet property="pickerView" destination="hwS-OY-fn9" id="VEJ-55-AFt"/>
+                <outlet property="tapGesutre" destination="O0c-F4-45C" id="VoN-UR-I3a"/>
+                <outlet property="trailingConstraint" destination="0SV-Aa-5Fb" id="bmj-JM-pUn"/>
+                <outletCollection property="gestureRecognizers" destination="O0c-F4-45C" appends="YES" id="Euh-M6-H9v"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+        <tapGestureRecognizer id="O0c-F4-45C">
+            <connections>
+                <action selector="dismiss:" destination="iN0-l3-epB" id="V4R-T0-1Gw"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

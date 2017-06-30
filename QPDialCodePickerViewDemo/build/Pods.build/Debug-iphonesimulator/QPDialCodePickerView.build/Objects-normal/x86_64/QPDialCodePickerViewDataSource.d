@@ -1,7 +1,0 @@
-dependencies: \
-  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerViewDemo/Pods/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerViewDataSource.m \
-  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerViewDemo/Pods/Target\ Support\ Files/QPDialCodePickerView/QPDialCodePickerView-prefix.pch \
-  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerViewDemo/Pods/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerViewDataSource.h \
-  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerViewDemo/Pods/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodeObject.h \
-  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerViewDemo/Pods/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodeAreaNameFormat.h \
-  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerViewDemo/Pods/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/NSLocale+QPDialCodeEmojiFlagString.h

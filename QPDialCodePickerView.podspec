@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QPDialCodePickerView"
-  s.version      = "1.0.0"
-  s.summary      = "international dial code picker view for country or area 国家或地区国际区号选择器"
+  s.version      = "1.0.1"
+  s.summary      = "International Dial Code Picker View for Country or Area 国家或地区国际区号选择器"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?

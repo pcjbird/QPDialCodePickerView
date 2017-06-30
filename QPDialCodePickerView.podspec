@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-				    X % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % X 
-				    o                                                                                                                   o 
+					X % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % X 
+					o                                                                                                                   o 
 					o                                                                                                                   o 
 					o                                                                                                                   o 
 					o                                                                                                                   o 
@@ -117,6 +117,8 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "QPDialCodePickerView/QPDialCodePickerView/**/QPDialCodePickerView.h", "QPDialCodePickerView/QPDialCodePickerView/**/QPDialCodeObject.h", "QPDialCodePickerView/QPDialCodePickerView/**/QPDialCodeAreaNameFormat.h"
 
+  s.ios.vendored_frameworks = 'Frameworks/QPDialCodePickerView.framework'
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -127,7 +129,9 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "QPDialCodePickerView/QPDialCodePickerViewResource/*.*"
+  # s.resources = "QPDialCodePickerView/QPDialCodePickerViewResource/*.*"
+
+  s.ios.resource_bundle = { 'QPDialCodePickerView' => 'QPDialCodePickerView/QPDialCodePickerViewResource/*.*' }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -151,7 +155,8 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"

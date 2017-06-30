@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89C437631F04BD57009A6942"
-               BuildableName = "QPDialCodePickerViewResource.bundle"
+               BuildableName = "QPDialCodePickerView.bundle"
                BlueprintName = "QPDialCodePickerViewResource"
                ReferencedContainer = "container:QPDialCodePickerView.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C437631F04BD57009A6942"
-            BuildableName = "QPDialCodePickerViewResource.bundle"
+            BuildableName = "QPDialCodePickerView.bundle"
             BlueprintName = "QPDialCodePickerViewResource"
             ReferencedContainer = "container:QPDialCodePickerView.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89C437631F04BD57009A6942"
-            BuildableName = "QPDialCodePickerViewResource.bundle"
+            BuildableName = "QPDialCodePickerView.bundle"
             BlueprintName = "QPDialCodePickerViewResource"
             ReferencedContainer = "container:QPDialCodePickerView.xcodeproj">
          </BuildableReference>

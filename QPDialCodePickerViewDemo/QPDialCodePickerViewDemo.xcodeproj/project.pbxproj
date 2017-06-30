@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3884C27E4A2B06C2CC5BA53D /* libPods-QPDialCodePickerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07409898368039FB209BA772 /* libPods-QPDialCodePickerViewDemo.a */; };
 		8952932B1F05469800F279EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952932A1F05469800F279EF /* main.m */; };
 		8952932E1F05469800F279EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952932D1F05469800F279EF /* AppDelegate.m */; };
 		895293311F05469800F279EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895293301F05469800F279EF /* ViewController.m */; };
 		895293341F05469800F279EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895293321F05469800F279EF /* Main.storyboard */; };
 		895293361F05469800F279EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895293351F05469800F279EF /* Assets.xcassets */; };
 		895293391F05469800F279EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895293371F05469800F279EF /* LaunchScreen.storyboard */; };
-		895293471F054E1B00F279EF /* QPDialCodePickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 895293451F054E1B00F279EF /* QPDialCodePickerView.bundle */; };
-		895293481F054E1B00F279EF /* QPDialCodePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895293461F054E1B00F279EF /* QPDialCodePickerView.framework */; };
 		8952934B1F054FD500F279EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8952934D1F054FD500F279EF /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07409898368039FB209BA772 /* libPods-QPDialCodePickerViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QPDialCodePickerViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895293261F05469800F279EF /* QPDialCodePickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPDialCodePickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8952932A1F05469800F279EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8952932C1F05469800F279EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,12 +33,12 @@
 		895293411F054A4D00F279EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		895293421F054A5100F279EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		895293431F054A5100F279EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		895293451F054E1B00F279EF /* QPDialCodePickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QPDialCodePickerView.bundle; path = QPDialCodePickerViewDemo/QPDialCodePickerView.bundle; sourceTree = "<group>"; };
-		895293461F054E1B00F279EF /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QPDialCodePickerView.framework; path = QPDialCodePickerViewDemo/QPDialCodePickerView.framework; sourceTree = "<group>"; };
 		8952934C1F054FD500F279EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8952934E1F054FD700F279EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8952934F1F054FD800F279EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		895293501F054FD900F279EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CFDF05334B827623EC282777 /* Pods-QPDialCodePickerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPDialCodePickerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QPDialCodePickerViewDemo/Pods-QPDialCodePickerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EA18759D02D85F5426C86E72 /* Pods-QPDialCodePickerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPDialCodePickerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QPDialCodePickerViewDemo/Pods-QPDialCodePickerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,19 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895293481F054E1B00F279EF /* QPDialCodePickerView.framework in Frameworks */,
+				3884C27E4A2B06C2CC5BA53D /* libPods-QPDialCodePickerViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049A99053DC0FC68B8744EA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA18759D02D85F5426C86E72 /* Pods-QPDialCodePickerViewDemo.debug.xcconfig */,
+				CFDF05334B827623EC282777 /* Pods-QPDialCodePickerViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8952931D1F05469800F279EF = {
 			isa = PBXGroup;
 			children = (
 				895293281F05469800F279EF /* QPDialCodePickerViewDemo */,
 				895293441F054E0800F279EF /* Frameworks */,
 				895293271F05469800F279EF /* Products */,
+				049A99053DC0FC68B8744EA8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +108,7 @@
 		895293441F054E0800F279EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				895293451F054E1B00F279EF /* QPDialCodePickerView.bundle */,
-				895293461F054E1B00F279EF /* QPDialCodePickerView.framework */,
+				07409898368039FB209BA772 /* libPods-QPDialCodePickerViewDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8952933D1F05469800F279EF /* Build configuration list for PBXNativeTarget "QPDialCodePickerViewDemo" */;
 			buildPhases = (
+				282E2022210EC206556C66E0 /* 📦 Check Pods Manifest.lock */,
 				895293221F05469800F279EF /* Sources */,
 				895293231F05469800F279EF /* Frameworks */,
 				895293241F05469800F279EF /* Resources */,
+				F916EDDC3E534AF2D3434B87 /* 📦 Embed Pods Frameworks */,
+				0704F8537789B052885D1A30 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,12 +179,59 @@
 				8952934B1F054FD500F279EF /* InfoPlist.strings in Resources */,
 				895293391F05469800F279EF /* LaunchScreen.storyboard in Resources */,
 				895293361F05469800F279EF /* Assets.xcassets in Resources */,
-				895293471F054E1B00F279EF /* QPDialCodePickerView.bundle in Resources */,
 				895293341F05469800F279EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0704F8537789B052885D1A30 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QPDialCodePickerViewDemo/Pods-QPDialCodePickerViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		282E2022210EC206556C66E0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F916EDDC3E534AF2D3434B87 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QPDialCodePickerViewDemo/Pods-QPDialCodePickerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		895293221F05469800F279EF /* Sources */ = {
@@ -318,6 +377,7 @@
 		};
 		8952933E1F05469800F279EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA18759D02D85F5426C86E72 /* Pods-QPDialCodePickerViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -334,6 +394,7 @@
 		};
 		8952933F1F05469800F279EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDF05334B827623EC282777 /* Pods-QPDialCodePickerViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -367,6 +428,7 @@
 				8952933F1F05469800F279EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

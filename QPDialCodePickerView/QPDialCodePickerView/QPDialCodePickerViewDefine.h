@@ -23,9 +23,10 @@
 #define RGB(r, g, b)                        [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
 #define RGBA(r, g, b, a)                    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 
-#define QP_DCPV_BUNDLE [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"QPDialCodePickerView" ofType:@"bundle"]]
+#define QP_DCPV_BUNDLE [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"QPDialCodePickerView" ofType:@"bundle"]]
 
 #define QP_DCPV_LocalizedString(key) NSLocalizedStringFromTableInBundle(key, @"QPDialCodePickerView", QP_DCPV_BUNDLE, nil)
 
 
 #endif /* QPDialCodePickerViewDefine_h */
+

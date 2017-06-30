@@ -2,7 +2,7 @@
 
 # QPDialCodePickerView 
 
-   picker view for international dial code for country or area 国家或地区国际区号选择器
+   international dial code picker view for country or area 国家或地区国际区号选择器
 
 ## Demo 
 ![demo](demo.gif)

@@ -4,7 +4,7 @@
 
    international dial code picker view for country or area 国家或地区国际区号选择器
    
-## 特性/Features
+## 特性 / Features
 
 1.自定义确定按钮背景颜色。
 
@@ -18,11 +18,11 @@
 
 6.默认按钮“确定”已经国际化，请确保主工程项目支持该语言国际化选项，在项目PROJECT-Localizations中添加。
 
-## 演示/Demo 
+## 演示 / Demo 
 
 ![demo](demo.gif)
 
-## 安装/Installation
+## 安装 / Installation
 
 方法一：直接下载, 打开工作区 QPDialCodePickerView.xcworkspace, 选择 Target “QPDialCodePickerView-Universal”进行编译，在根目录下的 product 目录下会生成 QPDialCodePickerView.framework 和 QPDialCodePickerView.bundle, 将这两个文件添加到您的项目中即可。
 
@@ -32,7 +32,7 @@
 pod "QPDialCodePickerView"
 ```
 
-## 使用/Usage
+## 使用 / Usage
 
 ```
     __weak typeof (UIButton*) weakBtn = self.btnDialCode;
@@ -43,7 +43,7 @@ pod "QPDialCodePickerView"
     [pickerView show];
 ```
 
-## 关注我们/Follow us
+## 关注我们 / Follow us
 
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/pcjbird/QPDialCodePickerView)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pcjbird.svg?style=social)](https://twitter.com/pcjbird)

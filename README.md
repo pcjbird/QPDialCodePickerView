@@ -6,7 +6,7 @@
 
 # QPDialCodePickerView 
 
-###International Dial Code Picker View for Country or Area 国家或地区国际区号选择器
+### International Dial Code Picker View for Country or Area 国家或地区国际区号选择器
    
 ## 特性 / Features
 

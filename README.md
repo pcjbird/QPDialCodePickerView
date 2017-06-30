@@ -1,5 +1,9 @@
 ![logo](logo.png)
 
+[![Pod Version](http://img.shields.io/cocoapods/v/SDWebImage.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
+[![Pod Platform](http://img.shields.io/cocoapods/p/SDWebImage.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
+[![Pod License](http://img.shields.io/cocoapods/l/SDWebImage.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
 # QPDialCodePickerView 
 
    international dial code picker view for country or area 国家或地区国际区号选择器
@@ -20,15 +24,19 @@
 
 ## 演示 / Demo 
 
-![demo](demo.gif)
+<p align="center" >
+  <img src="demo.gif" title="demo">
+</p>
 
-![demo2](demo2.gif)
+<p align="center" >
+  <img src="demo2.gif" title="demo">
+</p>
 
 ## 安装 / Installation
 
-方法一：直接下载, 打开工作区 QPDialCodePickerView.xcworkspace, 选择 Target “QPDialCodePickerView-Universal”进行编译，在根目录下的 product 目录下会生成 QPDialCodePickerView.framework 和 QPDialCodePickerView.bundle, 将这两个文件添加到您的项目中即可。
+方法一：直接下载, 打开工作区 `QPDialCodePickerView.xcworkspace`, 选择 Target `QPDialCodePickerView-Universal`进行编译，在根目录下的 `product` 目录下会生成 `QPDialCodePickerView.framework` 和 `QPDialCodePickerView.bundle`, 将这两个文件添加到您的项目中即可。
 
-方法二：QPDialCodePickerView is available through CocoaPods. To install it, simply add the following line to your Podfile:
+方法二：`QPDialCodePickerView` is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
 ```
 pod "QPDialCodePickerView"

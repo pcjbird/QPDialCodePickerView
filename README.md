@@ -7,6 +7,12 @@
 ## Demo 
 ![demo](demo.gif)
 
+## Installation
+
+QPDialCodePickerView is available through CocoaPods. To install it, simply add the following line to your Podfile:
+
+pod "QPDialCodePickerView"
+
 ## Usage
 
 ```

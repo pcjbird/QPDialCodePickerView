@@ -22,6 +22,8 @@
 
 ![demo](demo.gif)
 
+![demo2](demo2.gif)
+
 ## 安装 / Installation
 
 方法一：直接下载, 打开工作区 QPDialCodePickerView.xcworkspace, 选择 Target “QPDialCodePickerView-Universal”进行编译，在根目录下的 product 目录下会生成 QPDialCodePickerView.framework 和 QPDialCodePickerView.bundle, 将这两个文件添加到您的项目中即可。

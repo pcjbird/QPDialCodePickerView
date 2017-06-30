@@ -9,9 +9,9 @@
 #ifndef QPDialCodePickerViewDefine_h
 #define QPDialCodePickerViewDefine_h
 
-#define QPDCPV_VERSION   @"1.0.0"
+#define QPDCPV_VERSION   @"1.0.1"
 
-#define QPDCPV_BUILD_VERSION   @"201706290001"
+#define QPDCPV_BUILD_VERSION   @"201706300001"
 
 #define kQPDCPVScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kQPDCPVScreenHeight [UIScreen mainScreen].bounds.size.height

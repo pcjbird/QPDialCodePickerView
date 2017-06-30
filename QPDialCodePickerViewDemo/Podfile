@@ -2,6 +2,7 @@
  platform :ios, '8.0'
 
 target 'QPDialCodePickerViewDemo' do
+  use_frameworks!
   
   pod 'QPDialCodePickerView', '~> 1.0.0'
 

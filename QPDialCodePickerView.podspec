@@ -117,8 +117,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "QPDialCodePickerView/QPDialCodePickerView/**/QPDialCodePickerView.h", "QPDialCodePickerView/QPDialCodePickerView/**/QPDialCodeObject.h", "QPDialCodePickerView/QPDialCodePickerView/**/QPDialCodeAreaNameFormat.h"
 
-  s.ios.vendored_frameworks = 'Frameworks/QPDialCodePickerView.framework'
-
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,7 +129,9 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "QPDialCodePickerView/QPDialCodePickerViewResource/*.*"
 
-  s.ios.resource_bundle = { 'QPDialCodePickerView' => 'QPDialCodePickerView/QPDialCodePickerViewResource/*.*' }
+  s.resource_bundles = {
+    'QPDialCodePickerView' => ['QPDialCodePickerView/QPDialCodePickerViewResource/*.*'],
+  }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

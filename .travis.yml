@@ -1,3 +1,31 @@
 language: objective-c
+
+env:
+  global:
+    - LC_CTYPE=en_US.UTF-8
+    - LANG=en_US.UTF-8
+
+
+before_install:
+    - env
+    - locale
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+    - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+    - pod --version
+    - pod setup --silent > /dev/null
+    - pod repo update --silent
+    - xcpretty --version
+    - xcodebuild -version
+    - xcodebuild -showsdks
+
 script: 
-   - xcodebuild -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO 
+   - set -o pipefail
+
+   - echo Build resource bundle
+   - xcodebuild -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerViewResource -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+
+   - echo Build as framework
+   - xcodebuild -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash) 

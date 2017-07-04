@@ -121,7 +121,7 @@
                             @"246",@"DG",@"212",@"EH", @"3491", @"IC", @"34", @"EA",
                             @"11", @"HM",@"1", @"UM",@"47", @"BV",@"11",@"CP",nil];
         
-        NSString* currentDialCode = [rawDialCodeDict objectForKey:[NSLocale currentLocale].countryCode];
+        NSString* currentDialCode = [rawDialCodeDict objectForKey:[[NSLocale currentLocale] objectForKey:NSLocaleCountryCode]];
         NSString* currentDialCodePrefix = [currentDialCode substringToIndex:1];
         
         NSArray<NSString*>*sortedISOCountryCodes = [rawDialCodeDict keysSortedByValueUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {

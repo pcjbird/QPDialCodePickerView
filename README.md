@@ -3,6 +3,7 @@
 [![Pod Version](http://img.shields.io/cocoapods/v/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod License](http://img.shields.io/cocoapods/l/QPDialCodePickerView.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Dependency Status](https://www.versioneye.com/objective-c/QPDialCodePickerView/badge.svg?style=flat)](https://www.versioneye.com/objective-c/QPDialCodePickerView)
 
 # QPDialCodePickerView 
 

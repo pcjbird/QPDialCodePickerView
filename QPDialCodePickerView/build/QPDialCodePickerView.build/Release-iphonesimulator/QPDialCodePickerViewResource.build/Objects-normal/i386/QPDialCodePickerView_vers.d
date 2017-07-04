@@ -1,0 +1,2 @@
+dependencies: \
+  /snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/build/QPDialCodePickerView.build/Release-iphonesimulator/QPDialCodePickerViewResource.build/DerivedSources/QPDialCodePickerView_vers.c

@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8911F14A1F0B713A0061C0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911F1491F0B713A0061C0A9 /* main.m */; };
+		8911F14D1F0B713A0061C0A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911F14C1F0B713A0061C0A9 /* AppDelegate.m */; };
+		8911F1501F0B713A0061C0A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8911F14F1F0B713A0061C0A9 /* ViewController.m */; };
+		8911F1531F0B713A0061C0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8911F1511F0B713A0061C0A9 /* Main.storyboard */; };
+		8911F1551F0B713A0061C0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8911F1541F0B713A0061C0A9 /* Assets.xcassets */; };
+		8911F1581F0B713A0061C0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8911F1561F0B713A0061C0A9 /* LaunchScreen.storyboard */; };
+		8911F1831F0B73F10061C0A9 /* QPDialCodePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8911F1811F0B73EA0061C0A9 /* QPDialCodePickerView.framework */; };
+		8911F18B1F0B751C0061C0A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8911F1891F0B751C0061C0A9 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8911F1451F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPDialCodePickerViewCarthageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8911F1491F0B713A0061C0A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8911F14B1F0B713A0061C0A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8911F14C1F0B713A0061C0A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8911F14E1F0B713A0061C0A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8911F14F1F0B713A0061C0A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8911F1521F0B713A0061C0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8911F1541F0B713A0061C0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8911F1571F0B713A0061C0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8911F1591F0B713A0061C0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8911F1621F0B73C10061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1631F0B73C10061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1641F0B73C10061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8911F1651F0B73C10061C0A9 /* QPDialCodePickerView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = QPDialCodePickerView.framework.dSYM; sourceTree = "<group>"; };
+		8911F1681F0B73C70061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1691F0B73C70061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F16A1F0B73C70061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8911F16B1F0B73C70061C0A9 /* QPDialCodePickerView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = QPDialCodePickerView.framework.dSYM; sourceTree = "<group>"; };
+		8911F16E1F0B73CD0061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F16F1F0B73CD0061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1701F0B73CD0061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8911F1711F0B73CD0061C0A9 /* QPDialCodePickerView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = QPDialCodePickerView.framework.dSYM; sourceTree = "<group>"; };
+		8911F1741F0B73D50061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1751F0B73D50061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1761F0B73D50061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8911F1771F0B73D50061C0A9 /* QPDialCodePickerView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = QPDialCodePickerView.framework.dSYM; sourceTree = "<group>"; };
+		8911F1791F0B73E50061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F17A1F0B73E50061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F17B1F0B73E50061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8911F17C1F0B73E50061C0A9 /* QPDialCodePickerView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = QPDialCodePickerView.framework.dSYM; sourceTree = "<group>"; };
+		8911F17F1F0B73EA0061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1801F0B73EA0061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap"; sourceTree = "<group>"; };
+		8911F1811F0B73EA0061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QPDialCodePickerView.framework; sourceTree = "<group>"; };
+		8911F1821F0B73EA0061C0A9 /* QPDialCodePickerView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = QPDialCodePickerView.framework.dSYM; sourceTree = "<group>"; };
+		8911F1851F0B74F90061C0A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		8911F1861F0B74F90061C0A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8911F1871F0B75060061C0A9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		8911F1881F0B75060061C0A9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8911F18A1F0B751C0061C0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8911F18C1F0B75220061C0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8911F18D1F0B75250061C0A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8911F18E1F0B75270061C0A9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8911F1421F0B713A0061C0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8911F1831F0B73F10061C0A9 /* QPDialCodePickerView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8911F13C1F0B713A0061C0A9 = {
+			isa = PBXGroup;
+			children = (
+				8911F1471F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo */,
+				8911F1461F0B713A0061C0A9 /* Products */,
+				8911F15F1F0B73C10061C0A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8911F1461F0B713A0061C0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1451F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8911F1471F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8911F14B1F0B713A0061C0A9 /* AppDelegate.h */,
+				8911F14C1F0B713A0061C0A9 /* AppDelegate.m */,
+				8911F14E1F0B713A0061C0A9 /* ViewController.h */,
+				8911F14F1F0B713A0061C0A9 /* ViewController.m */,
+				8911F1511F0B713A0061C0A9 /* Main.storyboard */,
+				8911F1541F0B713A0061C0A9 /* Assets.xcassets */,
+				8911F1561F0B713A0061C0A9 /* LaunchScreen.storyboard */,
+				8911F1591F0B713A0061C0A9 /* Info.plist */,
+				8911F1891F0B751C0061C0A9 /* InfoPlist.strings */,
+				8911F1481F0B713A0061C0A9 /* Supporting Files */,
+			);
+			path = QPDialCodePickerViewCarthageDemo;
+			sourceTree = "<group>";
+		};
+		8911F1481F0B713A0061C0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1491F0B713A0061C0A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8911F15F1F0B73C10061C0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8911F17D1F0B73EA0061C0A9 /* Build */,
+				8911F1781F0B73E50061C0A9 /* iOS */,
+				8911F1721F0B73D50061C0A9 /* Build */,
+				8911F16C1F0B73CD0061C0A9 /* Build */,
+				8911F1661F0B73C70061C0A9 /* Build */,
+				8911F1601F0B73C10061C0A9 /* Build */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8911F1601F0B73C10061C0A9 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1611F0B73C10061C0A9 /* iOS */,
+			);
+			name = Build;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8911F1611F0B73C10061C0A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1621F0B73C10061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */,
+				8911F1631F0B73C10061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */,
+				8911F1641F0B73C10061C0A9 /* QPDialCodePickerView.framework */,
+				8911F1651F0B73C10061C0A9 /* QPDialCodePickerView.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8911F1661F0B73C70061C0A9 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1671F0B73C70061C0A9 /* iOS */,
+			);
+			name = Build;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8911F1671F0B73C70061C0A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1681F0B73C70061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */,
+				8911F1691F0B73C70061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */,
+				8911F16A1F0B73C70061C0A9 /* QPDialCodePickerView.framework */,
+				8911F16B1F0B73C70061C0A9 /* QPDialCodePickerView.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8911F16C1F0B73CD0061C0A9 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				8911F16D1F0B73CD0061C0A9 /* iOS */,
+			);
+			name = Build;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8911F16D1F0B73CD0061C0A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8911F16E1F0B73CD0061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */,
+				8911F16F1F0B73CD0061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */,
+				8911F1701F0B73CD0061C0A9 /* QPDialCodePickerView.framework */,
+				8911F1711F0B73CD0061C0A9 /* QPDialCodePickerView.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8911F1721F0B73D50061C0A9 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1731F0B73D50061C0A9 /* iOS */,
+			);
+			name = Build;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8911F1731F0B73D50061C0A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1741F0B73D50061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */,
+				8911F1751F0B73D50061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */,
+				8911F1761F0B73D50061C0A9 /* QPDialCodePickerView.framework */,
+				8911F1771F0B73D50061C0A9 /* QPDialCodePickerView.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8911F1781F0B73E50061C0A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1791F0B73E50061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */,
+				8911F17A1F0B73E50061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */,
+				8911F17B1F0B73E50061C0A9 /* QPDialCodePickerView.framework */,
+				8911F17C1F0B73E50061C0A9 /* QPDialCodePickerView.framework.dSYM */,
+			);
+			name = iOS;
+			path = Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
+		8911F17D1F0B73EA0061C0A9 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				8911F17E1F0B73EA0061C0A9 /* iOS */,
+			);
+			name = Build;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		8911F17E1F0B73EA0061C0A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8911F17F1F0B73EA0061C0A9 /* AA3C029C-FECD-3D03-9B87-FB7DED743A7F.bcsymbolmap */,
+				8911F1801F0B73EA0061C0A9 /* CE50EE8D-BBED-3831-B7A5-68D79D63423C.bcsymbolmap */,
+				8911F1811F0B73EA0061C0A9 /* QPDialCodePickerView.framework */,
+				8911F1821F0B73EA0061C0A9 /* QPDialCodePickerView.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8911F1441F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8911F15C1F0B713A0061C0A9 /* Build configuration list for PBXNativeTarget "QPDialCodePickerViewCarthageDemo" */;
+			buildPhases = (
+				8911F1411F0B713A0061C0A9 /* Sources */,
+				8911F1421F0B713A0061C0A9 /* Frameworks */,
+				8911F1431F0B713A0061C0A9 /* Resources */,
+				8911F1841F0B742C0061C0A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPDialCodePickerViewCarthageDemo;
+			productName = QPDialCodePickerViewCarthageDemo;
+			productReference = 8911F1451F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8911F13D1F0B713A0061C0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zero Status";
+				TargetAttributes = {
+					8911F1441F0B713A0061C0A9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8911F1401F0B713A0061C0A9 /* Build configuration list for PBXProject "QPDialCodePickerViewCarthageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8911F13C1F0B713A0061C0A9;
+			productRefGroup = 8911F1461F0B713A0061C0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8911F1441F0B713A0061C0A9 /* QPDialCodePickerViewCarthageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8911F1431F0B713A0061C0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8911F1581F0B713A0061C0A9 /* LaunchScreen.storyboard in Resources */,
+				8911F18B1F0B751C0061C0A9 /* InfoPlist.strings in Resources */,
+				8911F1551F0B713A0061C0A9 /* Assets.xcassets in Resources */,
+				8911F1531F0B713A0061C0A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8911F1841F0B742C0061C0A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/QPDialCodePickerView.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8911F1411F0B713A0061C0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8911F1501F0B713A0061C0A9 /* ViewController.m in Sources */,
+				8911F14D1F0B713A0061C0A9 /* AppDelegate.m in Sources */,
+				8911F14A1F0B713A0061C0A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8911F1511F0B713A0061C0A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8911F1521F0B713A0061C0A9 /* Base */,
+				8911F1851F0B74F90061C0A9 /* zh-Hans */,
+				8911F1871F0B75060061C0A9 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8911F1561F0B713A0061C0A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8911F1571F0B713A0061C0A9 /* Base */,
+				8911F1861F0B74F90061C0A9 /* zh-Hans */,
+				8911F1881F0B75060061C0A9 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8911F1891F0B751C0061C0A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8911F18A1F0B751C0061C0A9 /* Base */,
+				8911F18C1F0B75220061C0A9 /* en */,
+				8911F18D1F0B75250061C0A9 /* zh-Hans */,
+				8911F18E1F0B75270061C0A9 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8911F15A1F0B713A0061C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8911F15B1F0B713A0061C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8911F15D1F0B713A0061C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = QPDialCodePickerViewCarthageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QPDialCodePickerViewCarthageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8911F15E1F0B713A0061C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = QPDialCodePickerViewCarthageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QPDialCodePickerViewCarthageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8911F1401F0B713A0061C0A9 /* Build configuration list for PBXProject "QPDialCodePickerViewCarthageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8911F15A1F0B713A0061C0A9 /* Debug */,
+				8911F15B1F0B713A0061C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8911F15C1F0B713A0061C0A9 /* Build configuration list for PBXNativeTarget "QPDialCodePickerViewCarthageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8911F15D1F0B713A0061C0A9 /* Debug */,
+				8911F15E1F0B713A0061C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8911F13D1F0B713A0061C0A9 /* Project object */;
+}

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>QPDialCodePickerView-Universal.xcscheme</key>
+		<key>QPDialCodePickerView-Universal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>QPDialCodePickerViewCarthage.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>QPDialCodePickerViewResource.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +27,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8911F1151F0B5B1B0061C0A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8911F1251F0B6B430061C0A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>89C437541F04B8C9009A6942</key>
 		<dict>
 			<key>primary</key>

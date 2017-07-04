@@ -1,0 +1,43 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/build/Release-iphonesimulator/QPDialCodePickerView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "QPDialCodeAreaNameFormat.h",
+          'external-contents': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodeAreaNameFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "QPDialCodeObject.h",
+          'external-contents': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodeObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "QPDialCodePickerView-Swift.h",
+          'external-contents': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/build/Release-iphonesimulator/QPDialCodePickerView.framework/Headers/QPDialCodePickerView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "QPDialCodePickerView.h",
+          'external-contents': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView/QPDialCodePickerView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/build/Release-iphonesimulator/QPDialCodePickerView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/snailgames/projects/QPDialCodePickerView/QPDialCodePickerView/build/QPDialCodePickerView.build/Release-iphonesimulator/QPDialCodePickerViewCarthage.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

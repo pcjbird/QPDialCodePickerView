@@ -3,7 +3,7 @@
 [![Pod Version](http://img.shields.io/cocoapods/v/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod License](http://img.shields.io/cocoapods/l/QPDialCodePickerView.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![codecov](https://codecov.io/gh/pcjbird/QPDialCodePickerView/branch/master/graph/badge.svg)](https://codecov.io/gh/pcjbird/QPDialCodePickerView)
+
 # QPDialCodePickerView 
 
 ### International Dial Code Picker View for Country or Area 国家或地区国际区号选择器

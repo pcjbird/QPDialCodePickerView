@@ -24,8 +24,5 @@ script:
    - echo Build as framework
    - xcodebuild clean build -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 
-   - echo Run test
-   - xcodebuild test -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerView -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES  | xcpretty -c
-
-after_success:
-    - bash <(curl -s https://codecov.io/bash) 
+#after_success:
+#    - bash <(curl -s https://codecov.io/bash) 

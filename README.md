@@ -48,7 +48,7 @@ pod "QPDialCodePickerView"
 
 方法三： 使用Carthage安装
 
-`Cartfile`
+`Cartfile`如下:
 ```
 github "pcjbird/QPDialCodePickerView"
 ```

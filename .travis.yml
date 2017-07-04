@@ -21,9 +21,6 @@ before_install:
 script: 
    - set -o pipefail
 
-   - echo Build resource bundle
-   - xcodebuild -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerViewResource -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-
    - echo Build as framework
    - xcodebuild -workspace QPDialCodePickerView.xcworkspace -scheme QPDialCodePickerView -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 

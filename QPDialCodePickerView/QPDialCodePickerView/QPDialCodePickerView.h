@@ -8,10 +8,13 @@
 //  框架名称:国际区号选择器
 //  框架功能:选择国籍区号
 //  修改记录:
+//     pcjbird    2017-07-04  Version:1.0.2 Build:201707040001
+//                            1.Carthage支持。
+//     pcjbird    2017-06-30  Version:1.0.1 Build:201706300001
+//                            1.CocoaPods支持。
 //     pcjbird    2017-06-29  Version:1.0.0 Build:201706290001
 //                            1.第一个版本。
-//     pcjbird    2017-06-30  Version:1.0.1 Build:201706300001
-//                            1.第一个版本。
+
 
 #import <UIKit/UIKit.h>
 

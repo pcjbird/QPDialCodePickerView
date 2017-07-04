@@ -21,6 +21,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8911F12E1F0B6B700061C0A9 /* QPDialCodeAreaNameFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C437821F04D5C6009A6942 /* QPDialCodeAreaNameFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8911F12F1F0B6B790061C0A9 /* QPDialCodePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C437581F04B8C9009A6942 /* QPDialCodePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8911F1301F0B6B810061C0A9 /* QPDialCodePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4376A1F04BE1C009A6942 /* QPDialCodePickerView.m */; };
+		8911F1311F0B6B850061C0A9 /* QPDialCodePickerViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C437771F04C91F009A6942 /* QPDialCodePickerViewDataSource.m */; };
+		8911F1321F0B6B8C0061C0A9 /* QPDialCodePickerViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C437761F04C91F009A6942 /* QPDialCodePickerViewDataSource.h */; };
+		8911F1331F0B6B910061C0A9 /* QPDialCodeObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C4377A1F04CF6C009A6942 /* QPDialCodeObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8911F1341F0B6B960061C0A9 /* QPDialCodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4377B1F04CF6C009A6942 /* QPDialCodeObject.m */; };
+		8911F1351F0B6B9B0061C0A9 /* QPDialCodeStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C4377E1F04D01F009A6942 /* QPDialCodeStringUtil.h */; };
+		8911F1361F0B6BA40061C0A9 /* QPDialCodeStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4377F1F04D01F009A6942 /* QPDialCodeStringUtil.m */; };
+		8911F1371F0B6BA80061C0A9 /* NSLocale+QPDialCodeEmojiFlagString.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C437841F04D7C4009A6942 /* NSLocale+QPDialCodeEmojiFlagString.h */; };
+		8911F1381F0B6BAC0061C0A9 /* NSLocale+QPDialCodeEmojiFlagString.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C437851F04D7C4009A6942 /* NSLocale+QPDialCodeEmojiFlagString.m */; };
+		8911F13B1F0B6D550061C0A9 /* QPDialCodePickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89C437641F04BD57009A6942 /* QPDialCodePickerView.bundle */; };
 		89C4375A1F04B8C9009A6942 /* QPDialCodePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C437581F04B8C9009A6942 /* QPDialCodePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89C4376B1F04BE1C009A6942 /* QPDialCodePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4376A1F04BE1C009A6942 /* QPDialCodePickerView.m */; };
 		89C4376D1F04BE62009A6942 /* QPDialCodePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C4376C1F04BE62009A6942 /* QPDialCodePickerView.xib */; };
@@ -39,7 +51,19 @@
 		89CA01631F06961200FE57C6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 89CA01601F06961200FE57C6 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8911F1391F0B6D3E0061C0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C4374C1F04B8C9009A6942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C437631F04BD57009A6942;
+			remoteInfo = QPDialCodePickerViewResource;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8911F1261F0B6B430061C0A9 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QPDialCodePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8911F1291F0B6B430061C0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89C437551F04B8C9009A6942 /* QPDialCodePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QPDialCodePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C437581F04B8C9009A6942 /* QPDialCodePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPDialCodePickerView.h; sourceTree = "<group>"; };
 		89C437591F04B8C9009A6942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +97,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8911F1221F0B6B430061C0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C437511F04B8C9009A6942 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,12 +121,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8911F1271F0B6B430061C0A9 /* QPDialCodePickerViewCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				8911F1291F0B6B430061C0A9 /* Info.plist */,
+			);
+			path = QPDialCodePickerViewCarthage;
+			sourceTree = "<group>";
+		};
 		89C4374B1F04B8C9009A6942 = {
 			isa = PBXGroup;
 			children = (
 				89CA015D1F0693F900FE57C6 /* Podspec_Readme */,
 				89C437571F04B8C9009A6942 /* QPDialCodePickerView */,
 				89C437651F04BD58009A6942 /* QPDialCodePickerViewResource */,
+				8911F1271F0B6B430061C0A9 /* QPDialCodePickerViewCarthage */,
 				89C437561F04B8C9009A6942 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +145,7 @@
 			children = (
 				89C437551F04B8C9009A6942 /* QPDialCodePickerView.framework */,
 				89C437641F04BD57009A6942 /* QPDialCodePickerView.bundle */,
+				8911F1261F0B6B430061C0A9 /* QPDialCodePickerView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +193,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8911F1231F0B6B430061C0A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8911F12E1F0B6B700061C0A9 /* QPDialCodeAreaNameFormat.h in Headers */,
+				8911F1371F0B6BA80061C0A9 /* NSLocale+QPDialCodeEmojiFlagString.h in Headers */,
+				8911F1331F0B6B910061C0A9 /* QPDialCodeObject.h in Headers */,
+				8911F12F1F0B6B790061C0A9 /* QPDialCodePickerView.h in Headers */,
+				8911F1351F0B6B9B0061C0A9 /* QPDialCodeStringUtil.h in Headers */,
+				8911F1321F0B6B8C0061C0A9 /* QPDialCodePickerViewDataSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C437521F04B8C9009A6942 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +222,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8911F1251F0B6B430061C0A9 /* QPDialCodePickerViewCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8911F12B1F0B6B430061C0A9 /* Build configuration list for PBXNativeTarget "QPDialCodePickerViewCarthage" */;
+			buildPhases = (
+				8911F1211F0B6B430061C0A9 /* Sources */,
+				8911F1221F0B6B430061C0A9 /* Frameworks */,
+				8911F1231F0B6B430061C0A9 /* Headers */,
+				8911F1241F0B6B430061C0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8911F13A1F0B6D3E0061C0A9 /* PBXTargetDependency */,
+			);
+			name = QPDialCodePickerViewCarthage;
+			productName = QPDialCodePickerViewCarthage;
+			productReference = 8911F1261F0B6B430061C0A9 /* QPDialCodePickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		89C437541F04B8C9009A6942 /* QPDialCodePickerView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89C4375D1F04B8C9009A6942 /* Build configuration list for PBXNativeTarget "QPDialCodePickerView" */;
@@ -212,6 +285,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Zero Status";
 				TargetAttributes = {
+					8911F1251F0B6B430061C0A9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					89C437541F04B8C9009A6942 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -250,11 +327,20 @@
 				89C437541F04B8C9009A6942 /* QPDialCodePickerView */,
 				89C437631F04BD57009A6942 /* QPDialCodePickerViewResource */,
 				89C437881F04EBF5009A6942 /* QPDialCodePickerView-Universal */,
+				8911F1251F0B6B430061C0A9 /* QPDialCodePickerViewCarthage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8911F1241F0B6B430061C0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8911F13B1F0B6D550061C0A9 /* QPDialCodePickerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C437531F04B8C9009A6942 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +379,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8911F1211F0B6B430061C0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8911F1381F0B6BAC0061C0A9 /* NSLocale+QPDialCodeEmojiFlagString.m in Sources */,
+				8911F1361F0B6BA40061C0A9 /* QPDialCodeStringUtil.m in Sources */,
+				8911F1341F0B6B960061C0A9 /* QPDialCodeObject.m in Sources */,
+				8911F1311F0B6B850061C0A9 /* QPDialCodePickerViewDataSource.m in Sources */,
+				8911F1301F0B6B810061C0A9 /* QPDialCodePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89C437501F04B8C9009A6942 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +413,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8911F13A1F0B6D3E0061C0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C437631F04BD57009A6942 /* QPDialCodePickerViewResource */;
+			targetProxy = 8911F1391F0B6D3E0061C0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		89C437731F04C424009A6942 /* QPDialCodePickerView.strings */ = {
 			isa = PBXVariantGroup;
@@ -336,6 +442,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8911F12C1F0B6B430061C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QPDialCodePickerViewCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"-fembed-bitcode",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QPDialCodePickerViewCarthage;
+				PRODUCT_NAME = QPDialCodePickerView;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8911F12D1F0B6B430061C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QPDialCodePickerViewCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"-fembed-bitcode",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QPDialCodePickerViewCarthage;
+				PRODUCT_NAME = QPDialCodePickerView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		89C4375B1F04B8C9009A6942 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -527,6 +679,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8911F12B1F0B6B430061C0A9 /* Build configuration list for PBXNativeTarget "QPDialCodePickerViewCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8911F12C1F0B6B430061C0A9 /* Debug */,
+				8911F12D1F0B6B430061C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		89C4374F1F04B8C9009A6942 /* Build configuration list for PBXProject "QPDialCodePickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

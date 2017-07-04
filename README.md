@@ -46,6 +46,11 @@
 pod "QPDialCodePickerView"
 ```
 
+方法三： Cartfile
+```
+github "pcjbird/QPDialCodePickerView"
+```
+
 ## 使用 / Usage
 
 ```

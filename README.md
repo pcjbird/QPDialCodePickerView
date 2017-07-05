@@ -66,7 +66,7 @@ github "pcjbird/QPDialCodePickerView"
 
 ## 关注我们 / Follow us
 
-<a href="https://itunes.apple.com/cn/app/iclock-simplest-always-best/id1128196970?pt=117947806&ct=com.github.pcjbird.QPDialCodePickerView&mt=8" target="_blank"><img src="iClock.png" title="iClock - 一款满足“挑剔”的翻页时钟与任务闹钟"></a>
+<a href="https://itunes.apple.com/cn/app/iclock-simplest-always-best/id1128196970?pt=117947806&ct=com.github.pcjbird.QPDialCodePickerView&mt=8"><img src="iClock.png" title="iClock - 一款满足“挑剔”的翻页时钟与任务闹钟"></a>
 
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/pcjbird/QPDialCodePickerView)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pcjbird.svg?style=social)](https://twitter.com/pcjbird)

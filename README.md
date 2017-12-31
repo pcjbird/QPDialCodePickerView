@@ -3,6 +3,7 @@
 [![Pod Version](http://img.shields.io/cocoapods/v/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod License](http://img.shields.io/cocoapods/l/QPDialCodePickerView.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![CocoaPods](https://img.shields.io/cocoapods/at/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/pcjbird/QPDialCodePickerView)
 [![Dependency Status](https://www.versioneye.com/user/projects/595b2b5c0fb24f006c059d0f/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/595b2b5c0fb24f006c059d0f)
 

@@ -6,7 +6,6 @@
 [![CocoaPods](https://img.shields.io/cocoapods/at/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/pcjbird/QPDialCodePickerView)
-[![Dependency Status](https://www.versioneye.com/user/projects/595b2b5c0fb24f006c059d0f/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/595b2b5c0fb24f006c059d0f)
 [![GitHub release](https://img.shields.io/github/release/pcjbird/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView/releases)
 [![GitHub release](https://img.shields.io/github/release-date/pcjbird/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView/releases)
 [![Website](https://img.shields.io/website-pcjbird-down-green-red/https/shields.io.svg?label=author)](https://pcjbird.github.io)

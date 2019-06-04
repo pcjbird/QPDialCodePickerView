@@ -1,4 +1,4 @@
-![logo](logo.png)
+![logo](https://github.com/pcjbird/QPDialCodePickerView/raw/master/logo.png)
 [![Build Status](http://img.shields.io/travis/pcjbird/QPDialCodePickerView/master.svg?style=flat)](https://travis-ci.org/pcjbird/QPDialCodePickerView)
 [![Pod Version](http://img.shields.io/cocoapods/v/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)

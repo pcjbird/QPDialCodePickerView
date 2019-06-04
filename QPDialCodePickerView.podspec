@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QPDialCodePickerView"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "International Dial Code Picker View for Country or Area 国家或地区国际区号选择器"
 
   # This description is used to generate tags and improve search results.
@@ -50,7 +50,8 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/pcjbird/QPDialCodePickerView"
-  # s.screenshots  = "https://github.com/pcjbird/QPDialCodePickerView/raw/master/logo.png", "https://github.com/pcjbird/QPDialCodePickerView/raw/master/demo.gif"
+  s.documentation_url = 'https://github.com/pcjbird/QPDialCodePickerView/blob/master/README.md'
+  s.screenshots  = "https://github.com/pcjbird/QPDialCodePickerView/raw/master/logo.png", "https://github.com/pcjbird/QPDialCodePickerView/raw/master/demo.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,7 +131,7 @@ Pod::Spec.new do |s|
   # s.resources = "QPDialCodePickerView/QPDialCodePickerViewResource/*.*"
 
   s.resource_bundles = {
-    'QPDialCodePickerView' => ['QPDialCodePickerView/QPDialCodePickerViewResource/*.*'],
+    'QPDialCodePickerView' => ['QPDialCodePickerView/QPDialCodePickerViewResource/*.{png,lproj,xib}'],
   }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

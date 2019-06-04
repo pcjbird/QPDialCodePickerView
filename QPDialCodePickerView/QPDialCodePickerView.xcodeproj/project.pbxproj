@@ -308,6 +308,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				"zh-Hans",
 				"zh-Hant",
@@ -686,6 +687,7 @@
 				8911F12D1F0B6B430061C0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C4374F1F04B8C9009A6942 /* Build configuration list for PBXProject "QPDialCodePickerView" */ = {
 			isa = XCConfigurationList;

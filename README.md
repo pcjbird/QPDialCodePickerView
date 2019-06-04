@@ -3,8 +3,6 @@
 [![Pod Version](http://img.shields.io/cocoapods/v/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/QPDialCodePickerView.svg?style=flat)](http://cocoadocs.org/docsets/QPDialCodePickerView/)
 [![Pod License](http://img.shields.io/cocoapods/l/QPDialCodePickerView.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![CocoaPods](https://img.shields.io/cocoapods/at/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView)
-[![CocoaPods](https://img.shields.io/cocoapods/dt/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/pcjbird/QPDialCodePickerView)
 [![GitHub release](https://img.shields.io/github/release/pcjbird/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView/releases)
 [![GitHub release](https://img.shields.io/github/release-date/pcjbird/QPDialCodePickerView.svg)](https://github.com/pcjbird/QPDialCodePickerView/releases)
@@ -33,11 +31,11 @@
 ## 演示 / Demo 
 
 <p align="center" >
-  <img src="demo.gif" title="demo">
+  <img src="https://github.com/pcjbird/QPDialCodePickerView/raw/master/demo.gif" title="demo">
 </p>
 
 <p align="center" >
-  <img src="demo2.gif" title="demo">
+  <img src="https://github.com/pcjbird/QPDialCodePickerView/raw/master/demo2.gif" title="demo">
 </p>
 
 ## 安装 / Installation
@@ -71,8 +69,6 @@ github "pcjbird/QPDialCodePickerView"
 ## 关注我们 / Follow us
 
 <a href="https://itunes.apple.com/cn/app/iclock-一款满足-挑剔-的翻页时钟与任务闹钟/id1128196970?pt=117947806&ct=com.github.pcjbird.QPDialCodePickerView&mt=8"><img src="https://github.com/pcjbird/AssetsExtractor/raw/master/iClock.gif" width="400" title="iClock - 一款满足“挑剔”的翻页时钟与任务闹钟"></a>
-
-<a href="https://itunes.apple.com/cn/app/iclock-simplest-always-best/id1128196970?pt=117947806&ct=com.github.pcjbird.QPDialCodePickerView&mt=8"><img src="iClock.png" width="686" title="iClock - 一款满足“挑剔”的翻页时钟与任务闹钟"></a>
 
 <a href="https://itunes.apple.com/cn/app/%E8%90%8C%E9%B1%BC%E8%BE%A8%E8%89%B2-%E4%B8%80%E6%AC%BE%E6%9C%89%E8%B6%A3%E7%9A%84%E9%A2%9C%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%8E%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7/id1234015415?pt=117947806&ct=com.github.pcjbird.QPDialCodePickerView&mt=8"><img src="Color Sniffer.png" width="686" title="Color Sniffer - 一款有趣的颜色识别与代码生成工具"></a>
 
